@@ -19,9 +19,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/validateForm',
-    name: 'validateForm',
-    component: () => import('../views/forms/validateForm.vue')
+    path: '/demo',
+    name: 'demo',
+    component: () => import(/* webpackChunkName: "demo" */ '../views/demo.vue')
   }
 ]
 
